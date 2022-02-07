@@ -32,3 +32,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Integrate Moralis
+For Metaverse, Create a Moralis (https://moralis.io/) account to use Moralis server 
+
+intsall Moralis and Moralis APK:
+
+```bash
+npm install moralis react-moralis
+```
+
+- Import `MoralisProvider` in `pages/_app.js`.
+- For Authentication, import `useMoralis`into your pages 
