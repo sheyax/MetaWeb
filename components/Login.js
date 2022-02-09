@@ -12,10 +12,9 @@ export default function Login() {
     items-center justify-cemter space-y-4'>
         {/*ProfileLogo */}
         <Image
-        alt='demo prof'
         src='https://images.unsplash.com/photo-1635940960084-3794d7d85f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=463&q=80'
         width={200} height={200}
-        className='object-cover rounded-full'/>
+        className='object-cover rounded-full' alt='profile logo'/>
 
         {/*Button */}
         <button  className='bg-yellow-400 rounded-lg
@@ -26,7 +25,7 @@ export default function Login() {
     <div className='w-full h-screen'>
         {/*Background*/}
         <Image
-        alt='demo bacx'
+        alt='back view '
         src='https://images.unsplash.com/photo-1628026552437-59305f353694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80'
         layout='fill'
         ObjectFit='cover'/>
