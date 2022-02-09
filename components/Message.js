@@ -24,7 +24,7 @@ const isUserMessage= message.get('ethAddress') === user.get('ethAddress');
         {/* Time ago*/}
 
         <p className={`absolute -bottom-5 
-        text-xs ${isUserMessage ? 'text-pink-300': 'text-blue-400'} `}>
+        text-xs ${isUserMessage ? 'text-pink-300': 'text-black'} `}>
             {message.get('username')}
         </p>
     </div>
