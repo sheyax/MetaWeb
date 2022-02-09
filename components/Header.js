@@ -13,7 +13,7 @@ const {user}= useMoralis();
     lg:items-center'>
         <div className='relative h-24 w-24 mx-auto 
         hidden lg:inline-grid' >
-            <Image alt='' src='https://images.unsplash.com/photo-1635940960084-3794d7d85f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=463&q=80'
+            <Image alt='demo prox' src='https://images.unsplash.com/photo-1635940960084-3794d7d85f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=463&q=80'
             className='rounded-full '
             ObjectFit='cover'
             layout='fill'/>
