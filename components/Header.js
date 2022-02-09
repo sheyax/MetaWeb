@@ -7,7 +7,7 @@ export default function Header() {
 const {user}= useMoralis();
 
   return (
-    <div className="sticky top-0 p-5 z-50
+    <div className="sticky top-0 p-5 z-50 lg:h-50
      bg-black border-indigo-500 border-b-2  text-indigo-500">
     <div className='grid grid-cols-5 lg:grid-cols-6 items-end
     lg:items-center'>
@@ -21,15 +21,15 @@ const {user}= useMoralis();
 
         <div className='col-span-4 text-left lg:text-center '>
             {/*Avatar*/}
-            <div className='relative h-40 w-40 lg:mx-auto rounded-full'>
+            <div className='relative h-20 w-20 lg:h-40 lg:w-40 lg:mx-auto rounded-full'>
                 <Avatar logoutProps/>
             </div>
             {/*welcome message*/}
 
-            <h1 className='text-3xl'
+            <h1 className=' text-xl lg:text-3xl'
             > Welcometo MetaChat app</h1>
             {/*username*/}
-            <h2 className='text-5xl font-bold truncate'>{user.getUsername()}</h2>
+            <h2 className='text-2xl text-white lg:text-5xl font-bold truncate'>{user.getUsername()}</h2>
             
 
             {/*change username component*/}

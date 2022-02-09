@@ -28,12 +28,14 @@ export default function SendMessage({endOfMessagesRef}) {
 
         endOfMessagesRef.current.scrollIntoView({behavior:'smooth'});
 
-        setMessage(" ");
+        setMessage('');
     };
+
   return (
     <form className="flex w-11/12  fixed bottom-10 bg-black opacity-75 px-6 py-4
     max-w-2xl rounded-full border-4 border-white ">
         <input 
+        value={message}
         onChange={(e)=> setMessage(e.target.value)}
         className=" flex-grow outline-none bg-transparent  
          placeholder-gray-500 pr-5 text-white" type="text"
