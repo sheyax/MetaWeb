@@ -8,7 +8,7 @@ export default function Login() {
   return (
     <div className='bg-black relative '>
 
-    <div className='z-50 flex flex-col absolute w-full h-4/6 
+    <div className='z-50 flex flex-col absolute top-20 w-full h-4/6 
     items-center justify-cemter space-y-4'>
         {/*ProfileLogo */}
         <Image
@@ -27,8 +27,9 @@ export default function Login() {
         <Image
         alt='back view '
         src='https://images.unsplash.com/photo-1628026552437-59305f353694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80'
+        ObjectFit='cover'
         layout='fill'
-        ObjectFit='cover'/>
+        />
     </div>
     </div>
   );
